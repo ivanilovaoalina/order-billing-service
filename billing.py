@@ -1,9 +1,14 @@
 class CustomerProfile:
     def __init__(self, user_id, email, password_hash, city, loyalty_points):
+        
         self.user_id = user_id
+        
         self.email = email
+        
         self.password_hash = password_hash
+
         self.city = city
+        
         self.loyalty_points = loyalty_points
 
 
